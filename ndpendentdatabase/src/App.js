@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import { getEmployeeList } from "./utils/API"
+
 
 // Setting the Search state for employees
 
